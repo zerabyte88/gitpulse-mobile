@@ -58,9 +58,9 @@ android {
                 enableV2Signing = true
             } else if (defaultJks.exists()) {
                 keyAlias = "gitpulse"
-                keyPassword = "gitpulse_release_key"
+                keyPassword = "GitPulseRelease2026Key"
                 storeFile = defaultJks
-                storePassword = "gitpulse_release_key"
+                storePassword = "GitPulseRelease2026Key"
                 enableV1Signing = true
                 enableV2Signing = true
             }
